@@ -4,7 +4,7 @@ import tensorflow as tf
 from PIL import Image
 
 # Load model
-model = tf.keras.models.load_model("saved_model/")
+model = tf.keras.models.load_model("flower_classification_model_vgg_2.h5")
 
 # Class labels (update according to your training data)
 class_names = ['daisy', 'dandelion', 'roses', 'sunflowers', 'tulips']
